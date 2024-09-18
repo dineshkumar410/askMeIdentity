@@ -4,11 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AskMeIdentity - Safe guard your digital frontier</title>
+    <style>
+      * {
+        scroll-behavior: smooth;
+      }
+    </style>
     <link rel="stylesheet" href="./index.css" />
   </head>
   <body class="box-border">
     <nav>
-      <div class="flex w-[95%] m-auto justify-between items-center py-[0.25rem]">
+      <div
+        class="flex w-[95%] m-auto justify-between items-center py-[0.25rem]"
+      >
         <div class="items-center">
           <img
             class="w-[60%] block items-center"
@@ -19,10 +26,16 @@
 
         <div class="flex w-[70%] justify-around items-center">
           <div class="flex text-[1.3rem] text-[#000] font-righteous">
-            <a class="px-[1rem] block hover:underline" href="">Home</a>
-            <a class="px-[1rem] block hover:underline" href="">About</a>
-            <a class="px-[1rem] block hover:underline" href="">Courses</a>
-            <a class="px-[1rem] block hover:underline" href="">Contact</a>
+            <a class="px-[1rem] block hover:underline" href="#home">Home</a>
+            <a class="px-[1rem] block hover:underline" href="#about-us"
+              >About</a
+            >
+            <a class="px-[1rem] block hover:underline" href="#feature"
+              >Courses</a
+            >
+            <a class="px-[1rem] block hover:underline" href="#contact"
+              >Contact</a
+            >
           </div>
 
           <div class="flex">
@@ -45,7 +58,7 @@
             >
             <a
               class="px-[1rem] py-[0.5rem] block text-[#fff] ml-[1rem] bg-gradient-to-r from-[#083F9B] to-[#7F56D9] rounded-lg"
-              href="#"
+              href="#subscribe"
               >Signup</a
             >
           </div>
@@ -53,7 +66,10 @@
       </div>
     </nav>
 
-    <main class="bg-gradient-to-r from-[#04016C] to-[#4A16BD] opacity-80">
+    <main
+      id="home"
+      class="bg-gradient-to-r from-[#04016C] to-[#4A16BD] opacity-80"
+    >
       <div
         class="w-[85%] py-[2rem] m-auto text-[#fff] flex justify-around items-center font-righteous"
       >
@@ -371,7 +387,10 @@
       </div>
     </section>
 
-    <section class="bg-gradient-to-r from-[#739FE8] to-[#4F18CA] py-[3rem]">
+    <section
+      id="about-us"
+      class="bg-gradient-to-r from-[#739FE8] to-[#4F18CA] py-[3rem]"
+    >
       <div class="w-[80%] m-auto flex flex-col space-y-[3rem]">
         <div class="flex flex-col text-center">
           <h3 class="font-righteous text-[2.5rem] text-white">
@@ -470,7 +489,7 @@
       </div>
     </section>
 
-    <section class="bg-white py-[5rem]">
+    <section id="subscribe" class="bg-white py-[5rem]">
       <div
         class="w-[80%] m-auto flex flex-col space-y-[7rem] justify-center items-center"
       >
@@ -586,7 +605,10 @@
       </div>
     </section>
 
-    <footer class="bg-gradient-to-r from-[#477AE3] to-[#931BBD] pt-[3rem]">
+    <footer
+      id="contact"
+      class="bg-gradient-to-r from-[#477AE3] to-[#931BBD] pt-[3rem]"
+    >
       <div class="flex flex-col space-y-0.5rem">
         <div class="w-[90%] m-auto font-righteous flex">
           <div class="w-[30%] flex flex-col space-y-[1rem] justify-center">
